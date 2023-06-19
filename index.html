@@ -4,60 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estudio Jurido Otegui</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./codigo.js"></script>
+    <script defer src="./codigo.js"></script>
+    <script defer src="https://kit.fontawesome.com/20dbc68d3e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <header>
-        <h1 id="titular">Estudio Juridico Otegui</h1>
-        <h2>"Defendemos tus derechos con pasión y compromiso, porque creemos en la justicia como pilar fundamental de nuestra sociedad."</h2>
-        <div class="topnav">
-              <a href="#inicio">Inicio</a>
-              <a href="#Sobremi">Sobre Mi</a>
-              <a href="#misclientes">Mis clientes</a>
-              <a href="#contacto">Contacto</a>
+        <nav class="nav">
+            <div class="nav__container"> 
+                <h1 class="nav__title">Estudio Otegui</h1>
+                <a href="#menu" class="nav__menu">
+                    <img src="./imagenes/menu.svg" class="nav__icon">
+                </a>
+    
+                <a href="#" class="nav__menu nav__menu--second">
+                    <img src="./imagenes/close.svg" class="nav__icon ">
+                </a>
+    
+                <ul class="dropdown" id="menu">
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./imagenes/house.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Iniciox</span>
+                        </a>
+                    </li>
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./imagenes/projects.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Projects</span>
+                            <img src="./imagenes/down.svg" class="dropdown__arrow">
+    
+                            <input type="checkbox" class="dropdown__check">
+                        </a>
+                        <div class="dropdown__content">
+                            <ul class="dropdown__sub">
+                                <li class="dropdown__li">
+                                    <a href="https://www.semana.com/economia/empresas/articulo/el-rol-de-los-abogados-de-cara-a-la-reactivacion-empresarial/202100/" class="dropdown__anchor">Project 1</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="https://www.cronista.com/economia-politica/burlando-reconocio-que-jose-luis-auge-asesino-de-cabezas-formo-parte-de-su-spot-de-campana/" class="dropdown__anchor">Project 2</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="https://www.clarin.com/politica/amia-esteche-burlando_0_SyfByLcDQx.html" class="dropdown__anchor">Project 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./imagenes/email.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Contacto</span>
+                            <img src="./imagenes/down.svg" class="dropdown__arrow">
+                    
+                            <input type="checkbox" class="dropdown__check">
+                        </a>
+                    
+                        <div class="dropdown__content">
+                    
+                            <ul class="dropdown__sub">
+                    
+                                <li class="dropdown__li">
+                                    <a href="tel:+123456789" class="dropdown__anchor">Contacto 1: +123456789</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="tel:+987654321" class="dropdown__anchor">Contacto 2: +987654321</a>
+                                </li>
+                    
+                            </ul>
+                    
+                        </div>
+                    </li>
+                    
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./imagenes/help.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Ayuda</span>
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+        </nav>
+    </header>
+        <div>
+            <div class="contenedor">
+                <br>
+                <h2 id="inicio">Inicio</h2>
+                <p class="textmargin">El Estudio Jurídico Otegui se dedica a brindar asesoramiento legal y representación en diversas áreas del derecho. Con una trayectoria de más de 15 años, nuestro estudio ha acumulado experiencia y conocimiento en casos civiles, penales, laborales y comerciales, entre otros.
+
+                    Nuestro compromiso es ofrecer soluciones legales efectivas y personalizadas a nuestros clientes, brindando un servicio profesional y confiable. Nos enorgullece poder ayudar a las personas a resolver sus problemas legales y proteger sus derechos en cada situación.</p>
+            
+            </div>
+            <div class="contenedor1">
+                <h2 id="Sobremi">Sobre Mi</h2>
+                <p>El Estudio Jurídico Otegui, fundado por la destacada abogada Rosario Otegui, es reconocido por su excelencia y compromiso en el campo del derecho. Rosario Otegui, una profesional con una sólida formación jurídica y una pasión innata por la justicia, lidera un equipo de abogados expertos y dedicados.
+
+                    Con una trayectoria de más de 15 años, el Estudio Jurídico Otegui ha brindado asesoramiento y representación legal a una amplia gama de clientes, incluyendo individuos, empresas y organizaciones. Nos especializamos en áreas como derecho civil, penal, laboral, familiar y comercial.
+                    
+                    Nos destacamos por nuestra cercanía y compromiso con nuestros clientes. Entendemos que cada caso es único, por lo que nos esforzamos por comprender a fondo las necesidades y preocupaciones de cada persona que confía en nosotros. Nuestro enfoque personalizado nos permite ofrecer soluciones legales efectivas y estrategias adaptadas a cada situación.
+                    
+                    En el Estudio Jurídico Otegui, nuestra misión es brindar un servicio de calidad, basado en la ética, la honestidad y la transparencia. Nos enorgullece representar a nuestros clientes con pasión y determinación, buscando siempre la justicia y la protección de sus derechos.
+                    
+                    Nuestro objetivo es no solo resolver los problemas legales que enfrentan nuestros clientes, sino también brindarles tranquilidad y confianza en un proceso a menudo complejo. Trabajamos arduamente para alcanzar los mejores resultados posibles, utilizando un enfoque estratégico y perspicaz en cada caso.
+                    
+                    En resumen, el Estudio Jurídico Otegui, liderado por la destacada abogada Rosario Otegui, es un equipo de profesionales comprometidos, con amplia experiencia y un enfoque centrado en el cliente. Estamos aquí para brindar asesoramiento legal sólido, representación confiable y defensa incansable de los derechos de nuestros clientes.</p>
+            <img id="abogado" src="./arton155607.jpg" alt="No se pudo encontrar ninguna imagen"> </div>
+            <div class="contenedor">
+                <h2 id="misclientes">Mis clientes</h2>
+
+                <p>El Estudio Jurídico Otegui se enorgullece de contar con una amplia cartera de clientes que incluye a personas de diversos ámbitos y perfiles. Entre nuestros clientes se encuentran:</p> 
+                    <ul>
+                        <li> Celebridades del mundo del entretenimiento: Actores, actrices, músicos y otros artistas reconocidos que confían en nosotros para proteger sus derechos legales y brindarles asesoramiento en cuestiones relacionadas con contratos, derechos de autor, protección de imagen y más.</li><br>
+                        <li>Deportistas destacados: Trabajamos con atletas profesionales, tanto en el ámbito nacional como internacional, para asesorarlos en temas legales relacionados con contratos, acuerdos comerciales, litigios deportivos y protección de sus intereses legales.</li><br>
+                        <li>Empresarios y empresarias exitosos: Brindamos servicios legales a emprendedores, ejecutivos y líderes empresariales que necesitan asesoramiento en materia comercial, contratos, fusiones y adquisiciones, protección de la propiedad intelectual, entre otros aspectos legales relacionados con el mundo empresarial.</li><br>
+                        <li>Personalidades influyentes y figuras públicas: Trabajamos con líderes sociales, políticos, periodistas y otras figuras públicas reconocidas, brindándoles asesoramiento legal estratégico en situaciones complejas y desafiantes.</li>
+                    </ul>
+                    <p>Es importante destacar que, debido a la naturaleza confidencial de nuestras relaciones con los clientes, no podemos revelar nombres específicos de celebridades o estrellas famosas que son clientes del Estudio Jurídico Otegui. Respetamos la privacidad y la confidencialidad de nuestros clientes, y nos esforzamos por brindarles el más alto nivel de protección y servicio legal.</p> 
+                    <p>En resumen, el Estudio Jurídico Otegui cuenta con una amplia gama de clientes que incluye a celebridades, deportistas destacados, empresarios exitosos y personalidades influyentes. Trabajamos arduamente para brindarles un servicio legal de calidad y proteger sus intereses en todas las áreas del derecho en las que operan.</p> 
+            </div>
         </div>
     </header>
-    <div>
-        <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="imagenes/img pr.jpeg"  width="5%" id="whatsapp"alt="whatsapp de la empresa"></a>
-        <div class="contenedor">
-            <br>
-            <h2 id="inicio">Inicio</h2>
-            <p>El Estudio Jurídico Otegui se dedica a brindar asesoramiento legal y representación en diversas áreas del derecho. Con una trayectoria de más de 15 años, nuestro estudio ha acumulado experiencia y conocimiento en casos civiles, penales, laborales y comerciales, entre otros.
-
-                Nuestro compromiso es ofrecer soluciones legales efectivas y personalizadas a nuestros clientes, brindando un servicio profesional y confiable. Nos enorgullece poder ayudar a las personas a resolver sus problemas legales y proteger sus derechos en cada situación.</p>
-          
-        </div>
-        <div class="contenedor1">
-            <h2 id="Sobremi">Sobre Mi</h2>
-            <p>El Estudio Jurídico Otegui, fundado por la destacada abogada Rosario Otegui, es reconocido por su excelencia y compromiso en el campo del derecho. Rosario Otegui, una profesional con una sólida formación jurídica y una pasión innata por la justicia, lidera un equipo de abogados expertos y dedicados.
-
-                Con una trayectoria de más de 15 años, el Estudio Jurídico Otegui ha brindado asesoramiento y representación legal a una amplia gama de clientes, incluyendo individuos, empresas y organizaciones. Nos especializamos en áreas como derecho civil, penal, laboral, familiar y comercial.
-                
-                Nos destacamos por nuestra cercanía y compromiso con nuestros clientes. Entendemos que cada caso es único, por lo que nos esforzamos por comprender a fondo las necesidades y preocupaciones de cada persona que confía en nosotros. Nuestro enfoque personalizado nos permite ofrecer soluciones legales efectivas y estrategias adaptadas a cada situación.
-                
-                En el Estudio Jurídico Otegui, nuestra misión es brindar un servicio de calidad, basado en la ética, la honestidad y la transparencia. Nos enorgullece representar a nuestros clientes con pasión y determinación, buscando siempre la justicia y la protección de sus derechos.
-                
-                Nuestro objetivo es no solo resolver los problemas legales que enfrentan nuestros clientes, sino también brindarles tranquilidad y confianza en un proceso a menudo complejo. Trabajamos arduamente para alcanzar los mejores resultados posibles, utilizando un enfoque estratégico y perspicaz en cada caso.
-                
-                En resumen, el Estudio Jurídico Otegui, liderado por la destacada abogada Rosario Otegui, es un equipo de profesionales comprometidos, con amplia experiencia y un enfoque centrado en el cliente. Estamos aquí para brindar asesoramiento legal sólido, representación confiable y defensa incansable de los derechos de nuestros clientes.</p>
-         <img id="abogado" src="./arton155607.jpg" alt="No se pudo encontrar ninguna imagen"> </div>
-        <div class="contenedor">
-            <h2 id="misclientes">Mis clientes</h2>
-
-            <p>El Estudio Jurídico Otegui se enorgullece de contar con una amplia cartera de clientes que incluye a personas de diversos ámbitos y perfiles. Entre nuestros clientes se encuentran:</p> 
-                <ul>
-                    <li> Celebridades del mundo del entretenimiento: Actores, actrices, músicos y otros artistas reconocidos que confían en nosotros para proteger sus derechos legales y brindarles asesoramiento en cuestiones relacionadas con contratos, derechos de autor, protección de imagen y más.</li><br>
-                    <li>Deportistas destacados: Trabajamos con atletas profesionales, tanto en el ámbito nacional como internacional, para asesorarlos en temas legales relacionados con contratos, acuerdos comerciales, litigios deportivos y protección de sus intereses legales.</li><br>
-                    <li>Empresarios y empresarias exitosos: Brindamos servicios legales a emprendedores, ejecutivos y líderes empresariales que necesitan asesoramiento en materia comercial, contratos, fusiones y adquisiciones, protección de la propiedad intelectual, entre otros aspectos legales relacionados con el mundo empresarial.</li><br>
-                    <li>Personalidades influyentes y figuras públicas: Trabajamos con líderes sociales, políticos, periodistas y otras figuras públicas reconocidas, brindándoles asesoramiento legal estratégico en situaciones complejas y desafiantes.</li>
-                </ul>
-                <p>Es importante destacar que, debido a la naturaleza confidencial de nuestras relaciones con los clientes, no podemos revelar nombres específicos de celebridades o estrellas famosas que son clientes del Estudio Jurídico Otegui. Respetamos la privacidad y la confidencialidad de nuestros clientes, y nos esforzamos por brindarles el más alto nivel de protección y servicio legal.</p> 
-                <p>En resumen, el Estudio Jurídico Otegui cuenta con una amplia gama de clientes que incluye a celebridades, deportistas destacados, empresarios exitosos y personalidades influyentes. Trabajamos arduamente para brindarles un servicio legal de calidad y proteger sus intereses en todas las áreas del derecho en las que operan.</p> 
-        </div>
-   </div>
-
    <div id=contador>
     <h2>Tiempo desde nuestra fundación</h2>
     <div class="box" style="display: inline;">
@@ -73,32 +148,81 @@
         <span id="second">00</span> segundos
     </div></div>
 
-    <footer>
-        <h2 id="contacto">Contacto</h2>
-        <form action="">
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Estudio<span>Otegui</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Inicio</a>
+                |
+                <a href="#">Sobre Mi</a>
+                |
+                <a href="#">Mis Clientes</a>
+                |
+                <a href="#">Contacto/a>
+            </p>
+        </div>
+
+        <div class="footer-center">
             <div>
-                <label for="iname">Nombre:</label>
-                <input id ="iname" class="inputnombre" type="text" placeholder="Rosario" size="30">
-                &nbsp;
-                <label for="apellido">Apellido:</label>
-                <input id ="apellido" class="inputnombre" size="30" type="text" placeholder="Otegui">
+                <i class="fa fa-map-marker"></i>
+                <p><span>Norberto</span>
+                    De la Riestra</p>
             </div>
-            <br>
-            <br>
+            <div class="footer-center">
+                <div>
+                  <i class="fa fa-map-marker"></i>
+                  <iframe src="https://www.google.com/maps?q=Calle+Principal+123,+Norberto+De+la+Riestra&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              </div>
+              
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>
+                  <a href="tel:+152345428923">15 2345428923</a>
+                </p>
+              </div>
+              
             <div>
-                <label for="iemail">Email:</label>
-                <input class="inputnombre" id="iemail" size="32" type="email" placeholder="rootegui@gmail.com">
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:estudio_otegui@gmail.com">estudio_otegui@gmail.com</a></p>
             </div>
-            <br>
-            <br>
-            <div>
-                <label for="consulta">Consulta:</label>
-                <input id="consulta" type="text" placeholder="consulta" class="inputconsulta">
-            </div>
-            <br>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Sobre la empresa</span>
+                <strong>Sagar Developer</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore delectus odio, assumenda reprehenderit inventore suscipit ratione voluptatem voluptate voluptatum voluptates optio aut atque earum veritatis! Optio illum in perferendis.
+                Effects along with
+                HTML, JavaScript and Projects using C/C++.
+            </p>
+            <div class="redes-conteiner">
+                <ul>
+                  <li>
+                    <a href="https://www.instagram.com/rotegui" target="_blank" class="instagram">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="facebook">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/send?phone=2345419970" target="_blank" class="whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/rotegui/Progra-web/watchers" target="_blank" class="github">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </div>
     </footer>
+
 </body>
 </html>
