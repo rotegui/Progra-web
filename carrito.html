@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras - Mis Compras</title>
+</head>
+<body>
+    <h1>Mis Compras</h1>
+    <!-- Aquí puedes agregar el contenido relacionado con las compras realizadas por tus clientes -->
+    <p>¡Aquí se mostrarán las compras realizadas por tus clientes!</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras - Mis Compras</title>
+</head>
+<body>
+    <h1>Mis Compras</h1>
+    
+    <div id="compras-container"></div>
+
+    <script>
+        // Arreglo de objetos simulando la información de las compras
+        var compras = [
+            {
+                curso: "Derecho Penal",
+                precio: 50
+            },
+            {
+                curso: "Derecho Civil",
+                precio: 40
+            },
+            {
+                curso: "Derecho Computacional",
+                precio: 60
+            }
+        ];
+
+        // Función para mostrar las compras en el contenedor
+        function mostrarCompras() {
+            var comprasContainer = document.getElementById("compras-container");
+
+            // Limpiar el contenedor antes de agregar las compras
+            comprasContainer.innerHTML = "";
+
+            // Recorrer el arreglo de compras y crear elementos HTML para mostrar la información
+            for (var i = 0; i < compras.length; i++) {
+                var compra = compras[i];
+
+                var compraElement = document.createElement("div");
+                compraElement.innerHTML = "<p>Curso: " + compra.curso + "</p>" +
+                                         "<p>Precio: $" + compra.precio + "</p>";
+
+                comprasContainer.appendChild(compraElement);
+            }
+        }
+
+        // Llamar a la función para mostrar las compras al cargar la página
+        mostrarCompras();
+    </script>
+</body>

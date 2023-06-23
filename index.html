@@ -133,96 +133,204 @@
             </div>
         </div>
     </header>
-   <div id=contador>
-    <h2>Tiempo desde nuestra fundación</h2>
-    <div class="box" style="display: inline;">
-        <span id="day">00000</span>  dias
+    <div class="carrousel">  
+       
+        <div class="carrouselBanner">  
+        <img src="banner1.jpeg" class="banner">
+        <img src="banner2.jpeg" class="banner">
+        <img src="banner3.jpeg" class="banner">
+        <img src="banner4.jpeg" class="banner">
+        </div>   
+      </div>
     </div>
-    <div class="box" style="display: inline;">
-        <span id="hour">00</span> horas
-    </div>
-    <div class="box" style="display: inline;">
-        <span id="minute">00</span> minutos
-    </div>
-    <div class="box" style="display: inline;">
-        <span id="second">00</span> segundos
-    </div></div>
-
-    <footer class="footer-distributed">
-
-        <div class="footer-left">
-            <h3>Estudio<span>Otegui</span></h3>
-
-            <p class="footer-links">
-                <a href="#">Inicio</a>
-                |
-                <a href="#">Sobre Mi</a>
-                |
-                <a href="#">Mis Clientes</a>
-                |
-                <a href="#">Contacto/a>
-            </p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Norberto</span>
-                    De la Riestra</p>
-            </div>
-            <div class="footer-center">
-                <div>
-                  <i class="fa fa-map-marker"></i>
-                  <iframe src="https://www.google.com/maps?q=Calle+Principal+123,+Norberto+De+la+Riestra&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-              </div>
-              
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>
-                  <a href="tel:+152345428923">15 2345428923</a>
-                </p>
-              </div>
-              
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:estudio_otegui@gmail.com">estudio_otegui@gmail.com</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Sobre la empresa</span>
-                <strong>Sagar Developer</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore delectus odio, assumenda reprehenderit inventore suscipit ratione voluptatem voluptate voluptatum voluptates optio aut atque earum veritatis! Optio illum in perferendis.
-                Effects along with
-                HTML, JavaScript and Projects using C/C++.
-            </p>
-            <div class="redes-conteiner">
-                <ul>
-                  <li>
-                    <a href="https://www.instagram.com/rotegui" target="_blank" class="instagram">
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" class="facebook">
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://api.whatsapp.com/send?phone=2345419970" target="_blank" class="whatsapp">
-                      <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/rotegui/Progra-web/watchers" target="_blank" class="github">
-                      <i class="fa-brands fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-        </div>
-    </footer>
-
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Cursos</title>
+    <style>
+        .curso {
+            display: inline-block;
+            width: 200px;
+            border: 1px solid#cccccc;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .curso img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .curso h3 {
+            margin-top: 10px;
+        }
+
+        .curso .precio {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .curso .boton-comprar {
+            display: block;
+            background-color: #4CAF50;
+            color: rgb(244, 240, 240);
+            text-decoration: none;
+            padding: 8px 16px;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+
+        #carrito {
+            margin-top: 20px;
+        }
+
+        #carrito h2 {
+            margin-bottom: 10px;
+        }
+
+        #carrito ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #carrito li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tienda de Cursos</h1>
+<div class="cursodiv">
+    <div class="curso">
+        <img src="https://noticias.utpl.edu.ec/sites/default/files/imagenes_editor/derecho_digital_3.jpg" alt="Curso de derecho digital">
+        <h3>Curso de Derecho Penal</h3>
+        <div class="precio">$50</div>
+        <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+
+    <div class="curso">
+        <img src="https://derecho.uncuyo.edu.ar/cache/ddhh-01_999_750.jpg" alt="Curso de derechos humanos">
+        <h3>Curso de Derechos Humanos</h3>
+        <div class="precio">$60</div>
+        <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+
+    <div class="curso">
+        <img src="https://marialuisabautistaabogados.com/wp-content/uploads/2018/01/bufete-abogados-profesional-confianza-eficaz-580x400.jpg" alt="Curso derecho penal">
+        <h3>Curso de Derecho Digital</h3>
+        <div class="precio">$70</div>
+        <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+</div>
+
+    <!-- Aquí puedes agregar más cursos -->
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul></ul>
+    </div>
+
+    <script>
+        // Función para agregar un curso al carrito
+        function agregarAlCarrito(nombre, precio) {
+            var carrito = document.getElementById("carrito");
+            var listaCursos = carrito.querySelector("ul");
+
+            var cursoHTML = document.createElement("li");
+            cursoHTML.textContent = nombre + " - $" + precio;
+            listaCursos.appendChild(cursoHTML);
+        }
+
+        // Asignar el evento de clic a los botones "Comprar"
+        var botonesComprar = document.getElementsByClassName("boton-comprar");
+        for (var i = 0; i < botonesComprar.length; i++) {
+            botonesComprar[i].addEventListener("click", function(e) {
+                var nombre = e.target.previousElementSibling.previousElementSibling.textContent;
+                var precio = e.target.previousElementSibling.textContent.replace("$", "");
+                agregarAlCarrito(nombre, precio);
+            });
+        }
+    </script>
+</body>
+</html>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3>Estudio<span>Otegui</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Inicio</a>
+            |
+            <a href="#">Sobre Mi</a>
+            |
+            <a href="#">Mis Clientes</a>
+            |
+            <a href="#">Contacto>
+        </p>
+    </div>
+
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Norberto</span>
+                De la Riestra</p>
+        </div>
+        <div class="footer-center">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <iframe src="https://www.google.com/maps?q=Calle+Principal+123,+Norberto+De+la+Riestra&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>
+              <a href="tel:+152345428923">15 2345428923</a>
+            </p>
+          </div>
+          
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:estudio_otegui@gmail.com">estudio_otegui@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>Sobre la empresa</span>
+            <strong>Sagar Developer</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore delectus odio, assumenda reprehenderit inventore suscipit ratione voluptatem voluptate voluptatum voluptates optio aut atque earum veritatis! Optio illum in perferendis.
+            Effects along with
+            HTML, JavaScript and Projects using C/C++.
+        </p>
+        <div class="redes-conteiner">
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/rotegui" target="_blank" class="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=2345419970" target="_blank" class="whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/rotegui/Progra-web/watchers" target="_blank" class="github">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+    </div>
+</footer>

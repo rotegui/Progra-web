@@ -1,11 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
-body{
-    margin-right: 30px; 
-    margin-left: 30px;
-    
-}
+
 .contenedor,
 .contenedor1 {
     background: rgb(194, 196, 205);
@@ -15,6 +11,56 @@ body{
     text-align: center;
 }
 
+.carrouselBanner {
+    display:grid;
+    background-size: cover;
+    grid-gap: 10px;
+    margin: auto;
+    grid-template-columns: 100% 100% 100% 100%; 
+    animation: carrousel 20s infinite; 
+    position: relative;
+    margin-bottom: 0%;
+    justify-content: center; 
+    align-items: center; 
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carrousel{
+    background-color:rgb(194, 196, 205);
+   
+    height: 50%;
+    width: 100%;
+  }
+  @keyframes carrousel {
+    0% {
+      right: 0%;
+    }
+  
+    25% {
+      right: 100%;
+    }
+  
+    50% {
+      right: 200%;
+    }
+  
+    75% {
+      right: 300%; 
+    }
+  
+    100% {
+      right: 0%;
+    }
+  }
+  .banner{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  }
 h2 {
     text-align: center;
 }
@@ -341,7 +387,7 @@ h2 {
 }
 
 .footer-links a:hover {
-    color: #3f71ea;
+    color: #0e338b;
 }
 
 @media (max-width: 880px) {
@@ -416,4 +462,12 @@ h2 {
 
 .redes-conteiner ul li .github:hover {
     background: var(--github);
+}
+
+.cursodiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 100%;
 }
